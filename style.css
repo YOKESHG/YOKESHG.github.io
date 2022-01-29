@@ -1,0 +1,31 @@
+body{
+    background-image: url(Drumset\ background\ image.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.letter{
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    word-spacing: 4vw;
+    color: white;
+    font-size: 4vh;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    margin-left: 120px;
+}
+
+#a,#s,#d,#f,#g,#h,#j,#k,#l{
+    border: 2px solid black;
+    padding: 10px 20px;
+    background-color: rgba(0, 0, 0, 0.438);
+}
+
+#display{
+    text-align: center;
+    margin-top: 35%;
+    font-size: 30px;
+    color: rgb(255, 196, 0);
+}
